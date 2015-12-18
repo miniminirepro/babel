@@ -5,8 +5,9 @@ This is designed so that your final repro can be run like so, and you can delete
 <!-- Related issue: http://example.com/123 -->
 
 ```sh
-$ git clone {{this}}
-$ cd {{dirname}}
+$ git clone {{thisRepo}}
+$ cd {{thisRepoDir}}
+$ git checkout {{thisBranch}}
 $ npm i
 $ npm run repro
 ```
